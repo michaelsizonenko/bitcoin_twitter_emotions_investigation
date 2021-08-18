@@ -11,7 +11,7 @@ def plot(df):
 
 
 def main():
-    df_cut = pd.read_csv('final_dataframe_with_prediction.csv')
+    df_cut = pd.read_csv('cut_prediction_dataset.csv')
     df_full = pd.read_csv('full_prediction_dataset.csv')
     plot(df_cut)
     plot(df_full)
