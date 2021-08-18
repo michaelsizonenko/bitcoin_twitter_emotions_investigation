@@ -12,7 +12,7 @@ def plot(df):
 
 def main():
     df_cut = pd.read_csv('final_dataframe_with_prediction.csv')
-    df_full = pd.read_csv('final_dataframe_with_prediction_2.csv')
+    df_full = pd.read_csv('full_prediction_dataset.csv')
     plot(df_cut)
     plot(df_full)
     print(df_full)
